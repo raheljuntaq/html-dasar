@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productzilla</title>
+
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+
+  <body>
+    <form action="welcome.html" method="GET">
+      <h1>Buat Account Baru!</h1>
+      <h2>Sign Up Form</h2>
+      <div>
+        <label for="nama">Nama :</label> <br /><br />
+        <input type="text" id="nama" name="nama" /> <br /><br />
+        <label for="email">Email :</label> <br /><br />
+        <input type="text" id="email" name="email" /> <br />
+        <br />
+        <label for="pass">Password :</label> <br /><br />
+        <input type="password" id="pass" name="pass" /> <br /><br />
+      </div>
+
+      <div>
+        <p>Pilihan Bootcamp :</p>
+        <label>
+          <input type="radio" name="pilihan" value="1" />
+          Front End
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="pilihan" value="2" />
+          Back End
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="pilihan" value="3" />
+          UI/UX
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="pilihan" value="4" />
+          Digital Marketing
+        </label>
+      </div>
+      <br />
+      <div>
+        <label for="pilihan">Nationality:</label> <br /><br />
+        <select id="pilihan" name="pilihan">
+          <option value="1">Indonesia</option>
+          <option value="2">Malaysia</option>
+          <option value="3">Filipina</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <p>Language :</p>
+        <label>
+          <input type="checkbox" name="indo" value="1" />
+          Bahasa Indonesia
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="english" value="2" />
+          English
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="other" value="3" />
+          Other
+        </label>
+      </div>
+      <br />
+      <div>
+        <p>Bio :</p>
+        <textarea rows="4" cols="50">
+            Isi bio kamu!
+          </textarea
+        >
+      </div>
+      <br />
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>
